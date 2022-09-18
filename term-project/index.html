@@ -5,6 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>term-project</title>
+    <style>
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+  margin: 0;
+}
+        input[type=number] {
+            -moz-appearance: textfield;
+}
+    </style>
 </head>
 <body>
 <!-- Home -->
@@ -21,7 +31,7 @@
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, quisquam!</p>
             <p><a href="#">Learn More</a></p>
         <h3>New Coffee Flavors</h3>
-            <p><a href="#">Read More</a></p>
+            <p><a href="#NewFlavor">Read More</a></p>
         <h3>This Friday 25% Off</h3>
             <p><a href="#Sale">Read More</a>
     <br>
@@ -67,7 +77,7 @@
 <!-- Friday Sale -->
     <div id="Sale">
         <h3>This Friday 25% Off & Special Gift</h3>
-            <p><u><a href="#">Read More</a></u>
+            <p><u><a href="">Read More</a></u>
     <br>
             What Happens Here</p>
     </div>
@@ -107,16 +117,49 @@
             <p><b>Paper Pouch</b></p>
                 <p>*****</p>
                 <p>$71.00</p>
-        <p><b>New Coffee Flowers</b></p>
+        <div id="NewFlavor"><p><b>New Coffee Flavors</b></p></div>
             <u><a href="">Read More</a></u>
-        <p><b>New Coffee Flowers</b></p>
+        <p><b>Free Taste Coffee</b></p>
             <u><a href="">Read More</a></u>
-        <p><b>New Coffee Flowers</b></p>
+        <p><b>Free Coffee Beans</b></p>
             <u><a href="">Read More</a></u>
     </div>
     <div id="Reserve">
-        <h3>Reservation Form</h3>
+        <h2>Reservation Form</h2>
     </div>
+    <hr>
+    <form action="action_page.php">
+        <label for="fname">Full Name</label>
+            <input type="text" id="fname" name="fname" size="30" placeholder="Last Name, First Name">
+        <label for="email">Email Address</label>
+            <input type="text" id="email" name="email" size="30" placeholder="mail@mail.com">
+        <label for="pnumber">Phone Number</label>
+            <input type="number" id="pnumber" name="pnumber" size="30" placeholder="(Area Code) 1234567890">
+        <label for="reserved">Reservation Details</label>
+            <select name="reserved" id="reserved">
+                <option value="1 Person Table">1 Person Table</option>
+                <option value="2 Person Table">2 Persons Table</option>
+                <option value="3 Person Table">3 Persons Table</option>
+                <option value="4 Person Table">4 Persons Table</option>
+            </select>
+        <label for="rdate">Reservation Date</label>
+            <input type="date" id="rdate" name="rdate">
+    <br>
+    <br>
+        <label for="Request">Additional Request:</label>
+    <br>
+            <textarea name="Request" id="Request" cols="40" rows="10" reisize="none"></textarea> 
+        <h3>Payment</h3>
+            <p>Payment Accepted Cards</p>
+        <label for="cname">Cards:<br>
+             Credit Card Name</label>
+            <input type="text" id="cname" name="cname" size="30" placeholder="John Doe">
+        <label for="cnumber">Credit Card Number</label>
+            <input type="number" id="cnumber" name="cnumber" size="30" placeholder="1234567890">
+        <label for="Agreement"></label>
+            <input type="checkbox" name="Agreement" id="Agreement">I agree Lorem ipsum dolor sit amet. 
+            <input type="submit">
+    </form>
 </div>
 </body>
 </html>
