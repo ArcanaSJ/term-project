@@ -4,252 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>term-project</title>
-    <style>
-        input::-webkit-outer-spin-button,
-        input::-webkit-inner-spin-button {
-            -webkit-appearance: none;
-  margin: 0;
-}
-        input[type=number] {
-            -moz-appearance: textfield;
-}
-    </style>
+    <title>Midterm-project</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<!-- Home -->
-    <div id="Home">
-        <h1><u><a href="images/atf-image.jpg" target="_blank">Coffee Bean</a></u></h1>
-    <ul>
-        <li><u><a href="#Home">Home</a></u></li>
-        <li><u><a href="#Menu">Menu</a></u></li>
-        <li><u><a href="#Reserve">Reservation</a></u></li>
-        <li><u><a href="#Blog">Blog</a></u></li>
-        <li><u><a href="#Contact">Contact Us</a></u></li>
-    </ul>
-        <h2>Uniquely Fresh Taste</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, quisquam!</p>
-            <p><a href="">Learn More</a></p>
-        <h3>New Coffee Flavors</h3>
-            <p><a href="">Read More</a></p>
-        <h3>This Friday 25% Off</h3>
-            <p><a href="">Read More</a>
-    <br>
-                 What Happens Here</p>
-        <h2>Coffee House Merchandise</h3>
-    <hr>
-<!-- Menu -->
-    <div id="Menu">
-        <img src="images/product1.jpg" alt="product1">
-            <p><b>Paper Pouch</b></p>
-                <p>*****</p>
-                <p>$71.00</p>
-        <img src="images/product2.jpg" alt="product2">
-            <p><b>Paper Pouch</b></p>
-                <p>*****</p>
-                <p>$71.00</p>
-        <img src="images/product3.jpg" alt="product3">
-            <p><b>Paper Pouch</b></p>
-                <p>*****</p>
-                <p>$71.00</p>
-        <img src="images/product4.jpg" alt="product4">
-            <p><b>Paper Pouch</b></p>
-                <p>*****</p>
-                <p>$71.00</p>
-        <img src="images/product4.jpg" alt="product4">
-            <p><b>Paper Pouch</b></p>
-                <p>*****</p>
-                <p>$71.00</p>
-        <img src="images/product6.jpg" alt="product5">
-            <p><b>Paper Pouch</b></p>
-                <p>*****</p>
-                <p>$71.00</p>
-        <img src="images/product7.jpg" alt="product5">
-            <p><b>Paper Pouch</b></p>
-                <p>*****</p>
-                <p>$71.00</p>
-        <img src="images/product8.jpg" alt="product5">
-            <p><b>Paper Pouch</b></p>
-                <p>*****</p>
-                <p>$71.00</p>
-        <p>What Happens Here</p>
+    <!-- This is for homepage -->
+    <div id="home">
+    <div class="nav">
+        <h1>Coffee Bean</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#reservation">Reservation</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact us</a></li>
+        </ul>
     </div>
-<!-- Friday Sale -->
-    <div>
-        <h3>This Friday 25% Off & Special Gift</h3>
-            <p><u><a href="">Read More</a></u>
-    <br>
-            What Happens Here</p>
-    </div>
-        <h3>Merchandise Sale</h3>
-    <hr>
-<!-- Merchandise -->
-    <div id="Merchandise">
-        <img src="images/product1.jpg" alt="product1">
-            <p><b>Paper Pouch</b></p>
-                <p>*****</p>
-                <p>$71.00</p>
-        <img src="images/product2.jpg" alt="product2">
-            <p><b>Paper Pouch</b></p>
-                <p>*****</p>
-                <p>$71.00</p>
-        <img src="images/product3.jpg" alt="product3">
-            <p><b>Paper Pouch</b></p>
-                <p>*****</p>
-                <p>$71.00</p>
-        <img src="images/product4.jpg" alt="product4">
-            <p><b>Paper Pouch</b></p>
-                <p>*****</p>
-                <p>$71.00</p>
-        <img src="images/product4.jpg" alt="product4">
-            <p><b>Paper Pouch</b></p>
-                <p>*****</p>
-                <p>$71.00</p>
-        <img src="images/product6.jpg" alt="product5">
-            <p><b>Paper Pouch</b></p>
-                <p>*****</p>
-                <p>$71.00</p>
-        <img src="images/product7.jpg" alt="product5">
-            <p><b>Paper Pouch</b></p>
-                <p>*****</p>
-                <p>$71.00</p>
-        <img src="images/product8.jpg" alt="product5">
-            <p><b>Paper Pouch</b></p>
-                <p>*****</p>
-                <p>$71.00</p>
-        <div id="NewFlavor"><p><b>New Coffee Flavors</b></p></div>
-            <u><a href="">Read More</a></u>
-        <p><b>New Coffee Shop</b></p>
-            <u><a href="">Read More</a></u>
-        <p><b>Free Taste Coffee</b></p>
-            <u><a href="">Read More</a></u>
-        <p><b>Free Coffee Beans</b></p>
-            <u><a href="">Read More</a></u>
-    </div>
-    <div id="Reserve">
-        <h2>Reservation Form</h2>
-    </div>
-    <hr>
-    <div>
-    <form action="action_page.php">
-        <label for="fname">Full Name</label>
-            <input type="text" id="fname" name="fname" size="30" placeholder="Last Name, First Name">
-        <label for="email">Email Address</label>
-            <input type="text" id="email" name="email" size="30" placeholder="mail@mail.com">
-        <label for="pnumber">Phone Number</label>
-            <input type="number" id="pnumber" name="pnumber" size="30" placeholder="(Area Code) 1234567890">
-        <label for="reserved">Reservation Details</label>
-            <select name="reserved" id="reserved">
-                <option value="1 Person Table">1 Person Table</option>
-                <option value="2 Person Table">2 Persons Table</option>
-                <option value="3 Person Table">3 Persons Table</option>
-                <option value="4 Person Table">4 Persons Table</option>
-            </select>
-        <label for="rdate">Reservation Date</label>
-            <input type="date" id="rdate" name="rdate">
-        <label for="Timeset"></label>
-            <input type="radio" name="Timeset" value="Morning">Morning
-            <input type="radio" name="Timeset" value="Afternoon">Afternoon
-    <br>
-    <br>
-        <label for="Request">Additional Request:</label>
-    <br>
-            <textarea name="Request" id="Request" cols="40" rows="10" reisize="none"></textarea> 
-        <h3>Payment</h3>
-            <p>Payment Accepted Cards</p>
-        <label for="cname">Cards:<br>
-             Credit Card Name</label>
-            <input type="text" id="cname" name="cname" size="30" placeholder="John Doe">
-        <label for="cnumber">Credit Card Number</label>
-            <input type="number" id="cnumber" name="cnumber" size="30" placeholder="1234567890">
-        <label for="Agreement"></label>
-            <input type="checkbox" name="Agreement" id="Agreement">I agree Lorem ipsum dolor sit amet. 
-            <input type="submit">
-    </form>
-    </div>
-    <div>
-        <h3>Opening Hours</h3>
-        <table>
-            <thead>
-            <tr>
-                <th>Day</th>
-                <th>........</th>
-                <th>Availability</th>
-            </tr>
-            </thead>
-            <tr>
-                <td>Monday</td>
-                <td>........</td>
-                <td>Closed</td>
-            </tr>
-            <tr>
-                <td>Tuesday</td>
-                <td>........</td>
-                <td>09:00-22:00</td>
-            </tr>
-            <tr>
-                <td>Wednesday</td>
-                <td>........</th>
-                <td>Closed</td>
-            </tr>
-            <tr>
-                <td>Thursday</td>
-                <td>........</td>
-                <td>09:00-22:00</td>
-            </tr>
-            <tr>
-                <td>Friday</td>
-                <td>........</td>
-                <td>09:00-22:00</td>
-            </tr>
-            <tr>
-                <td>Saturday</td>
-                <td>........</td>
-                <td>09:00-22:00</td>
-            </tr>
-            <tr>
-                <td>Sunday</td>
-                <td>........</td>
-                <td>09:00-22:00</td>
-            </tr>
-        </table>
-    <div id="Blog">
-        <h3>Latest Post</h3>
-            <h4>Expand your mind, Change everything</h4>
-                <p>14.02.2017</p>
-            <h4>Places to get lost</h4>
-                <p>14.02.2017</p>
-            <h4>Lewis Howes</h4>
-                <p>14.02.2017</p>
-            <h4>Elevate your Expectation</h4>
-                <p>14.02.2017</p>
-    </div>
-    <div id="Contact">
-            <h3>Contact</h3>
-                <p>info@coffeebean.com</p>
-                <p>1-444-123-4559</p>
-                <p>Raymond Boulevard 224, New York</p>
-            <h3>The Last Standard Post</h3>
-            <input type="text">
-            <input type="submit">
-            <h4>Other Locations</h4>
-            <h3>Coffee Bean Philippines</h3>
-                <p>1234 IT Park</p>
-                <p>Cebu City</p>
-            <h3>Coffee Bean Tokyo</h3>
-                <p>1234 Address</p>
-                <p>Tokyo Japan</p>
-            <h2>Coffee Bean</h2>
-    </div>
-            <ul>
-                <li><u><a href="https://twitter.com/">Twitter</a></u></li>
-                <li><u><a href="https://www.instagram.com/">Instagram</a></u></li>
-                <li><u><a href="https://www.facebook.com/">Facebook</a></u></li>
-                <li><u><a href="https://www.tumblr.com/">Tumblr</a></u></li>
-                <li><u><a href="https://www.linkedin.com/">LinkedIn</a></u></li>
-            </ul>
-    </div>
-    <p>&copy; 2020 All Rights Reserved</p>
 </div>
+    <!-- This is for background image and inner-->
+    <div class="container">
+        <div class="box">
+            <div class="inner-box image1">
+                <h2 class="h2-1">UNIQUELY FRESH<br><span>TASTE</span></h2>
+                <p><i>Lorem ipsum dolor sit amet consectetur adipisicing. Animi. quisquam!</i></p>
+                <br>
+                <a href="">LEARN MORE</a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
