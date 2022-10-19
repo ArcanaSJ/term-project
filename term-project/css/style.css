@@ -90,3 +90,63 @@
     margin-left: 90px;
     font-size: 15px;
 }
+/* This is for container that contains images */
+.container2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.inner-box2 {
+    height: 250px;
+    background-size: cover;
+}
+
+.image2 {
+    width: 500px;
+    margin: 6px;
+    background-image: url(../images/merchandise1.jpg);
+}
+
+.box2 p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 500;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 10px;
+    margin-left: 55px;
+    font-size: 30px;
+}
+.box2 a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 15px 15px;
+    margin-left: 40px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.image3 {
+    width: 500px;
+    margin: 6px;
+    background-image: url(../images/merchandise2.jpg);
+}
+
+.box3 p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 500;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 10px;
+    margin-left: 55px;
+    font-size: 30px;
+}
+.box3 a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 15px 15px;
+    margin-left: 40px;
+    font-size: 12px;
+    text-decoration: none;
+}
