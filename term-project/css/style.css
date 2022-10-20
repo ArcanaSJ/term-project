@@ -1,4 +1,21 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .container {
+        max-width: 960px;
+    }
+
+}
+
 /* This is for font type used in the webpage */
+
 @font-face {
     font-family: AlternateGothicExtraCondAFTBold;
     src: url(../fonts/alternate-gothic-excond-atf-bold.otf);
@@ -63,6 +80,7 @@
 }
 
 .box h2 {
+    user-select: none;
     font-family: AlternateGothicExtraCondAFTBold;
     line-height: .8em;
     text-transform: uppercase;
@@ -111,7 +129,6 @@
 
 .box2 p{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 500;
     color: white;
     text-transform: uppercase;
     padding-top: 10px;
@@ -135,7 +152,6 @@
 
 .box3 p{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 500;
     color: white;
     text-transform: uppercase;
     padding-top: 10px;
@@ -157,7 +173,8 @@
     margin-top: 80px;
     margin-bottom: -30px;
     text-align: center;
-    color: rgb(206, 152, 72);
+    color: rgb(165, 121, 56);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
 }
 
@@ -176,7 +193,7 @@
     margin-left: 600px;
     margin-right: 600px;
     margin-bottom: 50px;
-    background: rgb(206, 152, 72);
+    background: rgb(165, 121, 56);
 }
 
 /* Images inside container */
@@ -206,6 +223,7 @@
     background-size: cover;
 }
 
+/* 8 Images */
 
 .image4 {
     margin: 5px;
@@ -253,4 +271,412 @@
     margin: 5px;
     width: 245px;
     background-image: url(../images/product8.jpg);
+}
+
+/* A container containing a Heading Banner including Merchandise Sale Part */
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.box4 {
+    width: 100%;
+    height: 100%;
+}
+
+.inner-box4 {
+    padding: 50px;
+    background-size: cover;
+}
+
+.image12 {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.box4 p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    margin-bottom: -50px;
+    color: rgb(192, 155, 99);
+    text-align: center;
+}
+
+.box4 h2 {
+    font-family: AlternateGothicExtraCondAFTBold;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.box4 a {
+    font-family: sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(161, 124, 69);
+    padding: 15px 15px;
+    display: block;
+    width: 80px;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+/* MERCHANDISE SALE */
+
+.text2 {
+    margin-top: 80px;
+    margin-bottom: -30px;
+    text-align: center;
+    color: rgb(165, 121, 56);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.h2-text2 {
+    font-family: AlternateGothicExtraCondAFTBold;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.hr2 {
+    padding-top: -30px;
+    height: 3px;
+    border-width: 0px;
+    margin-top: -20px;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-bottom: 50px;
+    background: rgb(165, 121, 56);
+}
+
+/* MERCHANDISE SALE IMAGES-PROPERTY */
+
+.container5 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+
+.image-box2 p {
+    font-family: AlternateGothicExtraCondAFTBold;
+    font-size: 20px;
+    padding-left: 5px;
+    margin-top: -5px;
+}
+
+.span2 {
+    color: rgb(206, 152, 72);
+}
+
+.inner-box5 {
+    margin-bottom: 15px;
+    height: 245px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.hr4 {
+    opacity: 0;
+    padding-top: -30px;
+    height: 3px;
+    border-width: 0px;
+    margin-top: -20px;
+    margin-left: 10000px;
+    margin-right: 10000px;
+    margin-bottom: 50px;
+    background: rgb(165, 121, 56);
+}
+
+/* MERCHANDISE SALE IMAGES */
+
+.image13 {
+    margin: 5px;
+    width: 245px;
+    background-image: url(../images/product1.jpg);
+}
+
+.image14 {
+    width: 245px;
+    margin: 5px;
+    background-image: url(../images/product2.jpg);
+}
+
+.image15 {
+    margin: 5px;
+    width: 245px;
+    background-image: url(../images/product3.jpg);
+}
+
+.image16 {
+    margin: 5px;
+    width: 245px;
+    background-image: url(../images/product4.jpg);
+}
+
+/* MERCHANDISE SALE SUB HEADING BANNERS */
+
+.container6 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.inner-box6 {
+    height: 250px;
+    background-size: cover;
+}
+
+.image17 {
+    width: 500px;
+    margin: 6px;
+    background-image: url(../images/merchandise3.jpg);
+}
+
+.box5 p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 35px;
+    margin-left: 55px;
+    font-size: 25px;
+}
+.box5 a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 15px 15px;
+    margin-left: 40px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.image18 {
+    width: 500px;
+    margin: 6px;
+    background-image: url(../images/merchandise4.jpg);
+}
+
+.box6 p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 35px;
+    margin-left: 55px;
+    font-size: 25px;
+}
+.box6 a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 15px 15px;
+    margin-left: 40px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.image19 {
+    width: 500px;
+    margin: 6px;
+    background-image: url(../images/merchandise5.jpg);
+}
+
+.box7 p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 35px;
+    margin-left: 55px;
+    font-size: 25px;
+}
+.box7 a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 15px 15px;
+    margin-left: 40px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.image20 {
+    width: 500px;
+    margin: 6px;
+    background-image: url(../images/merchandise6.jpg);
+}
+
+.box8 p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 35px;
+    margin-left: 55px;
+    font-size: 25px;
+}
+.box8 a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 15px 15px;
+    margin-left: 40px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.hr4 {
+    opacity: 0;
+    padding-top: -30px;
+    height: 3px;
+    border-width: 0px;
+    margin-top: -20px;
+    margin-left: 10000px;
+    margin-right: 10000px;
+    margin-bottom: 50px;
+    background: rgb(165, 121, 56);
+}
+/* RESERVATION FORM */
+
+.text3 {
+    opacity: 0;
+    margin-bottom: -30px;
+    text-align: center;
+    color: rgb(165, 121, 56);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.h2-text3 {
+    font-family: AlternateGothicExtraCondAFTBold;
+    font-size: 25px;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hr5 {
+    border-top: 3px solid rgb(165, 121, 56);
+    margin-top: -15px;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-bottom: 5%;
+}
+
+.hr3 {
+    opacity: 0;
+    border-top: 3px solid rgb(165, 121, 56);
+    margin-left: 550px;
+    margin-right: 550px;
+}
+
+
+/* RESERVATION FORM UI */
+
+.form {
+    display: flex;
+    margin-top: 10px;
+}
+
+.inner-form {
+    width: 100%;
+    padding: 30px 25px;
+    background-color: rgb(240, 240, 240);
+}
+/* RESERVATION FORM INPUTS STYLE */
+
+.pnormal {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+textarea {
+    border: none;
+    resize: vertical;
+}
+
+select {
+    border: none;
+    background-color: rgb(233, 233, 233);
+    padding: .4rem;
+    width: 100%;
+}
+
+.inner-form label {
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.dandn {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+.inner input{
+    width: 460px;
+}
+
+.inner-form input{
+    border: none;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+/* HALF PART OF RESERVATION FORM */
+
+.form2 {
+    margin-left: 15px;
+}
+
+.inner-form1{
+    width: 100%;
+    padding: 35px 35px;
+    background-color: rgb(240, 240, 240);
+}
+
+.inner-form1 p {
+    font-family: AlternateGothicExtraCondAFTBold;
+}
+
+.inner-form1 label {
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.inner-form1 input {
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.inner-form1 p{
+    font-size: 18px;
+    font-family: tahoma;
+    text-align: center;
+}
+
+.send{
+    text-transform: uppercase;
+    border: none;
+    display: block;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+    font-weight: 700;
+    padding: 10px 0;
+    width: 425px;
+    margin-top: 20px;
+    background-color: rgb(69, 190, 69);
+    font-size: 15px;
 }
