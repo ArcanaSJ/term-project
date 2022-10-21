@@ -1,10 +1,13 @@
-body {
-    margin: 0;
-}
+/* ADJUSTMENTS */
 
 * {
     box-sizing: border-box;
+    outline: none;
+    border: none;
 }
+
+
+/* Media Query */
 
 @media screen and (max-width: 1024px) {
 
@@ -27,7 +30,7 @@ body {
     justify-content: space-between;
     margin-bottom: -80px;
     margin-left: 130px;
-    margin-right: 180px;
+    margin-right: 100px;
 }
 
 .nav ul li {
@@ -71,8 +74,6 @@ body {
 .image1 {
     background-image: url(../images/atf-image.jpg);
     background-size: cover;
-    margin-left: 40px;
-    margin-right: 40px;
 }
 
 .box span {
@@ -108,7 +109,9 @@ body {
     margin-left: 90px;
     font-size: 15px;
 }
+
 /* This is for container that contains images */
+
 .container2 {
     display: flex;
     justify-content: center;
@@ -276,10 +279,7 @@ body {
 /* A container containing a Heading Banner including Merchandise Sale Part */
 
 .container4 {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 50px;
+    align-items: center;
 }
 
 .box4 {
@@ -288,8 +288,8 @@ body {
 }
 
 .inner-box4 {
+    position: 50;
     padding: 50px;
-    background-size: cover;
 }
 
 .image12 {
@@ -315,6 +315,10 @@ body {
     text-transform: uppercase;
 }
 
+.my-text {
+    text-align: center;
+}
+
 .box4 a {
     font-family: sans-serif;
     font-weight: 700;
@@ -322,9 +326,7 @@ body {
     background-color: rgb(255, 255, 255);
     color: rgb(161, 124, 69);
     padding: 15px 15px;
-    display: block;
     width: 80px;
-    margin: 0 auto;
     font-size: 15px;
 }
 
@@ -543,6 +545,7 @@ body {
 
 .text3 {
     opacity: 0;
+    margin-top: -40px;
     margin-bottom: -30px;
     text-align: center;
     color: rgb(165, 121, 56);
@@ -679,4 +682,177 @@ select {
     margin-top: 20px;
     background-color: rgb(69, 190, 69);
     font-size: 15px;
+}
+
+/* FOOTER AREA */
+
+/* FIRST IMAGE  OF FOOTER */
+
+.container23 {
+    display: block;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.table1 {
+    float: left;
+    margin-right: 40px;
+}
+
+.box23 {
+    background-color: white;
+    width: 97.50vw;
+}
+
+.inner-box23 {
+    padding: 50px 100px;
+    height: 300px;
+    background-size: cover;
+}
+
+.image23 {
+    background-image: url(../images/footer-img.jpg);
+    background-size: cover;
+}
+
+/* .box span {
+    color: rgba(0, 196, 49, 0.61);
+}
+
+.box h2 {
+    user-select: none;
+    font-family: AlternateGothicExtraCondAFTBold;
+    line-height: .8em;
+    text-transform: uppercase;
+    padding: 90px;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    opacity: 85%;
+} */
+
+.table2 {
+    margin-right: 40px;
+    float: left;
+}
+
+.box23 thead {
+    text-align: left;
+}
+
+.box23 caption {
+    font-size: 25px;
+    font-family: AlternateGothicExtraCondAFTBold;
+}
+
+.table2 th {
+    font-family: AlternateGothicExtraCondAFTBold;
+    font-size: 18px;
+}
+
+.table1 td, th {
+    font-family: sans-serif;
+    font-size:  15px;
+    margin-top: -145px;
+    color: rgb(255, 255, 255);
+}
+
+.contact {
+    margin-right: 40px;
+    float: left;
+}
+
+.contact span {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgb(192, 154, 100);
+}
+
+.contact p {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: white;
+}
+
+.contact input {
+    border: none;
+    padding: 5px;
+    font-size: 13px;
+}
+
+.contact button {
+    background-color: rgb(192, 154, 100);
+    border: none;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.contact label {
+    outline: none;
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+.contact h2 {
+    font-family: AlternateGothicExtraCondAFTBold;
+    color: white;
+    margin-top: 0;
+    font-size: 27px;
+}
+
+.location {
+    float: left;
+}
+
+.location span {
+    font-family: AlternateGothicExtraCondAFTBold;
+    font-size: 20px;
+    color: rgb(192, 154, 100);
+}
+
+.location p {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+.location h2 {
+    font-family: AlternateGothicExtraCondAFTBold;
+    color: white;
+    margin-top: 0;
+    font-size: 27px;
+}
+/* Navigation Footer */
+
+.nav25 {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: -40px;
+
+}
+
+.nav25 ul li {
+    color: rgb(255, 255, 255);
+    align-items: center;
+    list-style: none;
+    display: inline-block;
+    padding-top: 15px;
+}
+
+.nav25 ul a {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 2px;
+    font-family: sans-serif;
+}
+
+.nav25 h1 {
+    color: rgb(255, 255, 255);
+    font-family: AlternateGothicExtraCondAFTBold;
 }
