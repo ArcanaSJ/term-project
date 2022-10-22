@@ -2,8 +2,20 @@
 
 * {
     box-sizing: border-box;
+    outline: none;
+    border: none;
 }
 
+
+/* Media Query */
+
+@media screen and (max-width: 1024px) {
+
+    .container {
+        max-width: 960px;
+    }
+
+}
 
 /* This is for font type used in the webpage */
 
@@ -17,7 +29,7 @@
     position: relative;
     justify-content: space-between;
     margin-bottom: -80px;
-    margin-left: 90px;
+    margin-left: 130px;
     margin-right: 100px;
 }
 
@@ -677,7 +689,6 @@ select {
 /* FIRST IMAGE  OF FOOTER */
 
 .container23 {
-    
     display: block;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -703,6 +714,21 @@ select {
     background-image: url(../images/footer-img.jpg);
     background-size: cover;
 }
+
+/* .box span {
+    color: rgba(0, 196, 49, 0.61);
+}
+
+.box h2 {
+    user-select: none;
+    font-family: AlternateGothicExtraCondAFTBold;
+    line-height: .8em;
+    text-transform: uppercase;
+    padding: 90px;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    opacity: 85%;
+} */
 
 .table2 {
     margin-right: 40px;
