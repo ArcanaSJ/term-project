@@ -1,2 +1,2 @@
 # term-project
- This is for Prelim term-project
+ This is for term-project
